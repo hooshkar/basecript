@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "The base tool set",
   "main": "build/index.js",
-  "types": "build/index.ts",
+  "types": "build/index.d.ts",
   "scripts": {
     "test": "npx jest",
-    "start": "node -r ./ts-node.config.js src/index.ts",
-    "tsc": "node -e \"require('del')('./build')\" & npx tsc"
+    "tsc": "node -e \"require('del')('./build')\" & npx tsc",
+    "start": "node -r ./ts-node.config.js src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hooshkar/basecript.git"
   },
-  "keywords": [],
+  "keywords": [
+    "basecript"
+  ],
   "author": "hooshkar",
   "devDependencies": {
     "@types/jest": "^26.0.15",

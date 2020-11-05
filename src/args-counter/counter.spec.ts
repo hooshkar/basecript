@@ -1,4 +1,4 @@
-import { Nullable } from "../typed";
+import { Nullable } from "../typing";
 import { args, argsNoUndefined, argsNoUndefinedOrNull } from "./index";
 
 test("args count", () => {

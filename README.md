@@ -1,2 +1,2 @@
 # basecript
-The base tool set
+TypeScript base tool set

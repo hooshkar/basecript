@@ -1,5 +1,3 @@
-export function args(args: IArguments) {
-    return Object
-        .keys(args)
-        .length;
+export function args(args: IArguments): number {
+  return Object.keys(args).length;
 }

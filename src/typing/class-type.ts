@@ -1,4 +1,4 @@
 export interface ClassType<T> {
-  new (...args: any[]): T;
+  new (...args: unknown[]): T;
   readonly prototype: T;
 }

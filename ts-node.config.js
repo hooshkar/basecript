@@ -1,1 +1,2 @@
-require('ts-node').register({});
+/* eslint-disable @typescript-eslint/no-var-requires */
+require("ts-node").register({});

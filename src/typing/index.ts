@@ -1,4 +1,5 @@
 export * from "./class-type";
+export * from "./type-of";
 export * from "./keys-if-match";
 export * from "./nullable";
 export * from "./Partial";

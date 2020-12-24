@@ -1,6 +1,6 @@
 {
   "name": "basecript",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "The base tool set",
   "main": "build/index.js",
   "types": "build/index.d.ts",

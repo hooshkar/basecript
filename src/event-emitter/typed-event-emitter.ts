@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 declare const US: unique symbol;
 
 export type ArrayListenerType<T> = [T] extends [(...args: infer U) => any]

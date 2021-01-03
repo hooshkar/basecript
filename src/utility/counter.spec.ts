@@ -1,7 +1,7 @@
 /* eslint-disable prefer-rest-params */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Nullable } from "../typing";
-import { ArgumentsCounter } from "./index";
+import { ArgumentsCounter } from "./arguments-counter";
 
 test("args count", () => {
   function MyFunc(a: string, b: Nullable<string>, c: string | undefined): void {
